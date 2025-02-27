@@ -26,7 +26,7 @@ if [[ $result != '' ]]; then
 fi
 
 echo Flashing firmware \#1...
-qmk flash omkbd_ergodash_rev1_default.hex
+qmk flash omkbd_ergodash_rev1_marczych.hex
 
 read -rp 'Swap keyboards then hit enter: ' result
 
@@ -35,7 +35,7 @@ if [[ $result != '' ]]; then
 fi
 
 echo Flashing firmware \#1...
-qmk flash omkbd_ergodash_rev1_default.hex
+qmk flash omkbd_ergodash_rev1_marczych.hex
 
 cat <<'EOF'
 Success!
