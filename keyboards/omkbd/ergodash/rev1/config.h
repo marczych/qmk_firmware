@@ -21,6 +21,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUDIO_PIN C6
 
 #define SELECT_SOFT_SERIAL_SPEED 1
+
+// https://docs.qmk.fm/features/split_keyboard
+#define MASTER_RIGHT
+
 /*Sets the protocol speed when using serial communication*/
 //Speeds:
 //0: about 189kbps (Experimental only)
